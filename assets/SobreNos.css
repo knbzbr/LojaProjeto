@@ -28,6 +28,7 @@ a{
     margin-left: 1080px;
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
 .cadastro{
     width: 85px;

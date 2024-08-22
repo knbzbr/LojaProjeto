@@ -64,6 +64,7 @@ a{
     margin-left: 1000px;
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
 
 .nk-geral {
@@ -232,11 +233,12 @@ a{
     padding-bottom: 30px;
     padding-top: 30px;
     margin-top: 8%;
+    height: 40%;
 }
 .privace{
     text-align: left;
     margin-left: 50%;
-    margin-top: 50px;
+    margin-top: 100px;
     font-family: "fjalla";
     font-size: 12px;
 }
