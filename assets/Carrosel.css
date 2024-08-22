@@ -46,7 +46,6 @@ a{
     text-align: center;
     align-items: center;
     text-decoration: none;
-   
 }
 .tudo{
     width: 100%;
@@ -152,13 +151,13 @@ a{
 .produtos {
     width: 100%;
     height: 800px;
-    background-color: red;
+    background-color: #dee2db;
     margin-top: 50px;
 }
 .produtos1{
     width: 100%;
     height: 25%;
-    background-color: black;
+    background-color: #dee2db;
     margin-top: 10%;
     display: flex;
     flex-direction: row;
@@ -166,7 +165,7 @@ a{
 .produtos2 {
     width: 100%;
     height: 25%;
-    background-color: black;
+    background-color: #dee2db;
     margin-top: 10%;
     display: flex;
     flex-direction: row;
@@ -174,7 +173,7 @@ a{
 .produtos3{
     width: 100%;
     height: 25%;
-    background-color: black;
+    background-color: #dee2db;
     margin-top: 10%;
     display: flex;
     flex-direction: row;
