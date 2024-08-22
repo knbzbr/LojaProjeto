@@ -226,4 +226,70 @@ a{
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;  
 }
-
+.rodape{
+    background-color: #b5b6a7;
+    color: white;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 8%;
+}
+.privace{
+    text-align: left;
+    margin-left: 50%;
+    margin-top: 50px;
+    font-family: "fjalla";
+    font-size: 12px;
+}
+.linha{
+    width: 93%;
+    background-color: #CCCACA;
+    height: 0.3px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.logorodape{
+    width: 250px;
+    height: 245px;
+    margin-left: 2%;
+}
+.tituloendereco{
+    font-weight: bold ;
+    margin-left: 50%;
+    font-size: 25px;
+    color: black;
+}
+.endereco{
+    font-size: 15px;
+    margin-left: 50%;
+    color: black;
+}
+.titulocontato{
+    font-weight: bold ;
+    margin-left: 50%;
+    font-size: 25px;
+    color: black;
+}
+.contato{
+    font-size: 15px;
+    margin-left: 50%;
+    color: black;
+}
+.contato2{
+    font-size: 15px;
+    margin-left: 50%;
+    color: black;
+}
+.caixa1{
+    margin-top: -15%;
+}
+.caixa2{
+    margin-top: -70px;
+    margin-left: 55%;
+}
+.policy{
+    color: black;
+}
+.privacidade{
+    color: black;
+}
