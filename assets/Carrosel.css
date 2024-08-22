@@ -1,6 +1,7 @@
 body {
     margin: 0;
     border: 0;
+    background-color: #dee2db;
 }
 .top {
     width: 100%;
@@ -8,7 +9,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color:#9EA19C;
+    background-color:#b5b6a7;
     text-align: right;
 }
 a{
@@ -17,10 +18,9 @@ a{
     color: white;
 
 }
-
 .logo{
-    width: 90px;
-    height: 90px;
+    width: 125px;
+    height: 130px;
     margin-left: 20px;
 }
 
@@ -29,7 +29,7 @@ a{
     height: 30px;
     color: white;
     padding: 5px;
-    background-color:black ;
+    background-color: #545454 ;
     border-radius: 7px;
     text-align: center;
     align-items: center;
@@ -62,7 +62,7 @@ a{
 .botoes {
     width: 190px;
     height: 40px;
-    margin-left: 1100px;
+    margin-left: 1000px;
     display: flex;
     flex-direction: row;
 }
@@ -185,3 +185,45 @@ a{
     background-color: white;
     margin-left: 10%;
 }
+
+.texto1{
+    width: 40%;
+    height: 40%;
+    margin-left: 50%;
+    margin-top: -20%;
+}
+
+.foto{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.propaganda{
+    font-size: 50px;
+    width: 40%;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.foto2{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+    margin-left: 65%;
+    margin-top: 10%;
+}
+.texto2{
+    width: 40%;
+    height: 40%;
+    margin-left: 10%;
+    margin-top: -20%;
+}
+.propaganda2{
+    font-size: 40px;
+    width: 40%;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
