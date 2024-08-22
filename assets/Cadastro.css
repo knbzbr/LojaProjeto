@@ -10,30 +10,36 @@ label {
 span {
     font-size: 25px;
 }
+.form {
+    display: flex;
+}
 .bx1 {
-    width: 50%;
-    height: 80%;
+    width: 40%;
+    height: 50%;
+    margin-left: 20px;
 }
 .bx2 {
-    width: 50%;
-    height: 80%;
+    width: 40%;
+    height: 50%;
+    margin-left: 30px;
 }
 .big {
     width: 60%;
-    height: 400px;
+    height: 420px;
     background-color: blue;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    padding: 20px;
 }
 .title {
-    width: 30%;
+    width: 50%;
     height: 100%;
     align-items: center;
     text-align: center;
 }
 .box {
-    width: 70%;
+    width: 50%;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -44,7 +50,7 @@ span {
     text-align: center;
 }
 .inputs {
-    width: 200px;
+    width: 150px;
     height: 15px;
     border-radius: 5px;
     padding: 7px;
@@ -54,5 +60,4 @@ span {
     width: 100px;
     height: 30px;
     margin-top: 15px;
-
 }
