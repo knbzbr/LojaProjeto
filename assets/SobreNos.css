@@ -28,14 +28,15 @@ a{
     margin-left: 1080px;
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
 .cadastro{
-    width: 90px;
-    height: 30px;
+    width: 85px;
+    height: 20px;
     color: white;
     background-color:black ;
     padding: 5px;
-    margin-left: 5px;
+    margin-left: 15px;
     border-radius: 7px;
     text-align: center;
     align-items: center;
