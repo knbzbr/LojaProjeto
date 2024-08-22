@@ -1,42 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <link rel="stylesheet" href="Assets/style.css">
+    <link rel="stylesheet" href="assets/Carrosel.css">
+    <link rel="stylesheet" href="assets/Cadastro.css">
 </head>
+<header class="top">
+    <div class="logo">
+        <img src="assets/img/logoNovo.png" alt="" class="logo">
+    </div>
+</header>
+
 <body>
     <main>
-        <div class="box1">
-            <form action="">
-                <div class="form-input">
-                    <label for="nome">Nome Completo</label>
-                    <input type="text" name="nome" id="nome" placeholder="Insira Seu Nome Completo" required>
-                </div>
-                <div class="form-input">
-                    <label for="dt-nasc">Data de Nascimento</label>
-                    <input type="date" name="data" id="dt-nasc" required>
-                </div>
-                <div class="form-input">
-                    <label for="cpf">CPF</label>
-                    <input type="number" name="cpf" id="cpf" placeholder="000.000.000-00" maxlength="14" required>
-                </div>
-                <div class="form-input">
-                    <label for="rg">RG</label>
-                    <input type="number" name="rg" id="rg" placeholder="00.000.000-00" maxlength="13" required>
-                </div>
-                <div class="form-input">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" placeholder="usuário@email.com" required>
-                </div>
-                <div class="form-input">
-                    <label for="tel">Telefone</label>
-                    <input type="text" name="tel" id="tel" placeholder="0000-0000" maxlength="9">
-                </div>
-            </form>
+        <div class="big">
+            <div class="title">
+                <span>Faça seu cadastro e fique por dentro de nossas atualizações</span>
+            </div>
+            <div class="box">
+                <form action="">
+                    <div class="bx1">
+                        <div class="form-input">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" name="nome" id="nome" class="inputs"
+                                placeholder="Insira Seu Nome Completo" required>
+                        </div>
+                        <div class="form-input">
+                            <label for="dt-nasc">Data de Nascimento</label>
+                            <input type="date" name="data" id="dt-nasc" class="inputs" required>
+                        </div>
+                        <div class="form-input">
+                            <label for="tel">Telefone</label>
+                            <input type="text" name="tel" id="tel" class="inputs" placeholder="00000-0000"
+                                maxlength="9">
+                        </div>
+                    </div>
+                    <div class="bx2">
+                        <div class="form-input">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" class="inputs" placeholder="usuário@email.com"
+                                required>
+                        </div>
+                        <div class="form-input">
+                            <label for="senha">Senha</label>
+                            <input type="password" name="senha" id="senha" class="inputs" placeholder="Senha" required>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="submit" value="Cadastrar" class="btn-cadastrar">
+                    </div>
+                </form>
+            </div>
         </div>
+
     </main>
 </body>
+
 </html>

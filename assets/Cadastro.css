@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    border: 0;
+    background-color: #dee2db;
+}
+label {
+    display: block;
+    margin-top: 8px;
+}
+span {
+    font-size: 25px;
+}
+.bx1 {
+    width: 50%;
+    height: 80%;
+}
+.bx2 {
+    width: 50%;
+    height: 80%;
+}
+.big {
+    width: 60%;
+    height: 400px;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.title {
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+.box {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+}
+.principal {
+    text-align: center;
+}
+.inputs {
+    width: 200px;
+    height: 15px;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 7px;
+}
+.btn-cadastrar {
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+
+}
