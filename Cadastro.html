@@ -22,12 +22,12 @@
                 <span>Faça seu cadastro e fique por dentro de nossas atualizações</span>
             </div>
             <div class="box">
-                <form action="">
+                <form action="" class="form">
                     <div class="bx1">
                         <div class="form-input">
                             <label for="nome">Nome Completo</label>
                             <input type="text" name="nome" id="nome" class="inputs"
-                                placeholder="Insira Seu Nome Completo" required>
+                                placeholder="Nome Completo" required>
                         </div>
                         <div class="form-input">
                             <label for="dt-nasc">Data de Nascimento</label>
@@ -38,6 +38,9 @@
                             <input type="text" name="tel" id="tel" class="inputs" placeholder="00000-0000"
                                 maxlength="9">
                         </div>
+                        <div>
+                            <input type="submit" value="Cadastrar" class="btn-cadastrar">
+                        </div>
                     </div>
                     <div class="bx2">
                         <div class="form-input">
@@ -47,11 +50,8 @@
                         </div>
                         <div class="form-input">
                             <label for="senha">Senha</label>
-                            <input type="password" name="senha" id="senha" class="inputs" placeholder="Senha" required>
+                            <input type="password" name="senha" id="senha" class="inputs" placeholder="Senha" required minlength="8">
                         </div>
-                    </div>
-                    <div>
-                        <input type="submit" value="Cadastrar" class="btn-cadastrar">
                     </div>
                 </form>
             </div>
